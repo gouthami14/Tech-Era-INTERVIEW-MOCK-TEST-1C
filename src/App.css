@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #4656a1;
+  padding: 10px;
+}
+
+.nav img {
+  width: 100px;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses-container img {
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.course-details-container {
+  text-align: center;
+}
+
+.course-details-container img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.not-found-view,
+.failure-view {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.failure-view button {
+  background-color: #475569;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
